@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="body">
+      <header>
+        <form class="search-form">
+          <input
+            class="form"
+            type="search"
+            name="city"
+            placeholder="Enter a city"
+            id="city"
+            required
+          />
+          <input class="form button" type="submit" value="Search" />
+        </form>
+      </header>
+      <div class="current-weather">
+        <div>
+          <h1>Addis Ababa</h1>
+          <p>
+            <span class="date"> Monday 02:20</span> -- heavy rain<br />
+            Humidity: <strong>75%,</strong> Wind: <strong> 6.3km/h </strong>
+          </p>
+        </div>
+        <div>
+          <span class="icon">☀️</span> <span class="value">25</span
+          ><span class="symbol">&deg;c</span>
+        </div>
+      </div>
+
+      <footer>
+        <small>
+          This project was coded by
+          <a
+            href="https://www.shecodes.io/graduates/139485-tinbite-yonas"
+            target="_blank"
+            >Tinbite</a
+          >
+          and is <a href="#" target="_blank"> on GitHub</a> and
+          <a href="#" target="_blank">hosted on Netlify</a>
+        </small>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
